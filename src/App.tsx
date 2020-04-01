@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="home-page">
+      <header>
+        <h2>Next Civilization</h2>
+        <p>追求技术之巅, 探索宇宙之密...</p>
       </header>
+
+      <div>
+        <ol>
+          <li>
+            <ul>
+              <li>道路崎岖，正义相随</li>
+              <li>正义会迟到，但不会缺席...</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul>
+              <li>万物皆迷与有形，则无形绝尘与万物...</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
     </div>
   );
 }
