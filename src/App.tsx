@@ -25,6 +25,10 @@ function App() {
           </li>
         </ol>
       </div>
+
+      <footer>
+        <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备17060547号</a>
+      </footer>
     </div>
   );
 }
